@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Emlak.Models.Home>
+@{
+    ViewBag.Title = "HomeForSale";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-offset-2">
+    <h3>House For Sell</h3>
+</div>
+
+<style>
+    #img {
+        
+    }
+</style>
+
+@foreach(@Emlak.Models.Home @home in @ViewBag.HomeList){
+         <div class="container">
+    <div class="row">
+        <div class=" col-md-offset-2 col-md-6">
+            <div class="thumbnail">
+                <img src="~/images/house4.jpg" id="img" class="img-thumbnail"   />
+                <div class="caption">
+                    <h3>House for sale</h3>
+                    <p><b>Bds:</b> @home.BedRooms  ,    <b>Bts:</b> @home.BathRooms   ,   <b>Area:</b>@home.Area</p>
+                    <address><b>Address:</b>  Multan</address>
+                    <p><b>Price:</b>@home.Price</p>
+                    <p><a class="btn btn-default" href="#">View Details >></a></p>
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+}
+    
+
+
+ 
+<script>
+    function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(31.5546, 74.3572),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+</script>

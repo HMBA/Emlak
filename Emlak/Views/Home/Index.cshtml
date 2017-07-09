@@ -1,0 +1,97 @@
+﻿@Styles.Render("~/Content/style1.css")
+<link rel="stylesheet" type="text/css" href="animate.css">
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Carusel Code -->
+
+<div id="mainCarousel" class="carousel slide" data-interval="3000">
+
+    <ol class="carousel-indicators">
+        <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mainCarousel" data-slide-to="1"></li>
+        <li data-target="#mainCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="~/images/house.png" alt="modern architectural villa" class="img-responsive">
+            <div class="carousel-caption">
+                <h2 class="animated bounceInLeft ">Modern Villa</h2>
+                <h3 class="animated bounceInRight ">Beautiful villa with pool and modern architectural design</h3>
+            </div>
+        </div>
+        <div class="item ">
+            <img src="~/images/water.jpg" alt="modern architectural villa" class="img-responsive">
+            <div class="carousel-caption">
+                <h1 class="animated bounceInLeft">Modern Villa</h1>
+                <h3 class="animated bounceInRight">Beautiful villa with pool and modern architectural design</h3>
+            </div>
+        </div>
+        <div class="item ">
+            <img src="~/images/house.png" alt="modern architectural villa" class="img-responsive">
+            <div class="carousel-caption">
+                <h1 class="animated zoomInLeft">Modern Villa</h1>
+                <h3 class="animated zoomInRight">Beautiful villa with pool and modern architectural design</h3>
+            </div>
+        </div>
+    </div>
+
+    <a href="#mainCarousel" class="carousel-control left" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#mainCarousel" class="carousel-control right" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+<div class="services">
+    <br />
+    <div>
+        <h2 class="col-md-offset-1 whyEmlak">Why Emlak?</h2>
+    </div>
+    <div class="row">
+      
+        <div class="col-md-offset-2 col-md-3">
+            <img id="iconsearch" src="~/images/icon-search.png" />
+            <h3 id="service-buy">Buy & Rent</h3>
+            <p class="service-p">
+            Looking for your dream home? Plot development and housing in Pakistan is expanding faster than you can keep track of,
+             but we’re here to help. With brand new residential and commercial real estate available on a weekly basis in major cities 
+            like Lahore, Karachi, and Islamabad, Lamudi.pk has quickly become Pakistan’s #1 real estate marketplace for listing, buying,
+             and renting property. We make it easy to find your next apartment, house, or plot online. With so many house hunters and 
+            investors currently in the search to buy or rent commercial and residential properties, here at Lamudi we are dedicated to 
+            making your next buying or selling process as carefree and smooth as possible.</p>
+        </div>
+        <div class=" col-md-3">
+            <img id="iconsearch" src="~/images/icon_RentEasily.png" />
+            <h3 id="service-property">Find Your Property</h3>
+            <p class="service-p">
+                Are you interested in a commercial or residential property, buying an apartment, pre-finished house,
+                a plot for sale or building your dream house to to your exact specifications? Then this is the right place
+                for you! No matter what your goal, at Lamudi we provide top-notch quality apartments, condos, houses, and
+                plots with the latest features, improvements, and architectural designs all within your affordable price
+                range. Here you can discover your dream properties in Pakistan based on region, city and area all from
+                the comfort of your home. Be sure to visit our online channel or one of our certified agents today and let
+                Lamudi take care of the rest.
+            </p>
+
+        </div>
+
+        <div class="col-md-3">
+            <img id="iconsearch" src="~/images/icon_TopAgents.png" />
+            <h3 id="service-agent">Agents Matter</h3>
+            <p class="service-p">While our local online directory provides you with the most convenient, accurate, 
+            up-to-date property listing available in Pakistan, we also strive to give you the best experience possible
+             by extending our service beyond your virtual search. Thanks to our certified agent program, you’re in good
+             hands from day one with one of our experienced real estate consultants, as they take all of the hassle and
+             guess work out of the process by offering you seamless service until the moment you take possession of your
+             new property. Not just a website, at Lamudi we are committed to providing you with the highest quality,
+             full-service, real estate network possible.
+
+</p>
+        </div>
+    </div>
+
+</div>

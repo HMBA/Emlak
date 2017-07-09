@@ -1,0 +1,337 @@
+
+
+#logo{
+	width: 120px;
+	height: 120px;
+    overflow:visible;
+	margin-top: -20px;
+}
+.js-navbar-collapse a{
+	color:#0E72EF;
+
+}
+
+#dropdownlarge:focus{
+    background-color:#0E72EF;
+    color:white;
+}
+#dropdownlarge:hover{
+    background-color:#0E72EF;
+    color:white;
+}
+.services{
+    margin-top:100px;
+    width:100%;
+    height:600px;
+    background-color:#274E89;
+}
+.service-p{
+    color:#f5f5f5;
+    text-align: justify;
+}
+.whyEmlak{
+    color:#f2f2f2;
+}
+#iconsearch{
+    width:120px;
+    height:120px;
+    margin-left:120px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+#service-buy{
+    margin-left:120px;
+    color:#f2f2f2;
+}
+#service-property{
+    margin-left:70px;
+    color:#f2f2f2;
+   
+}
+ #service-agent{
+    margin-left:95px;
+    color:#f2f2f2;
+}
+#dropdownlarge:active{
+	color: white;
+
+}
+
+.dropdown-menu > ul > li{
+    padding:2px;
+}
+#nav li{
+    margin-top:20px;
+}
+#nav{
+	background-color: white;
+
+}
+.topnav{
+    margin-bottom:0;
+    
+}
+#nav:hover{
+    display:block;
+}
+#navbtn {
+	color: #0E72EF;
+	border-color: #0E72EF;
+}
+#navbtn span{
+	background-color:#0E72EF;
+}
+
+#dropdown li{
+	padding: 2px;
+	 display: block;
+}
+#dropdown a:hover{
+	margin-left: 6px;
+	background-color:#0077FF;
+	padding: 5px;
+}
+
+#LastName,#FirstName,#EmailId,#Email,#Password,#ConfirmPassword,#City,#State{
+    width:300px;
+    border-radius:3px;
+    padding:5px;
+    border:1px solid #aaaaaa;
+}
+    
+#LastName:focus,#FirstName:focus,#EmailId,#Email:focus,#Password:focus,#ConfirmPassword:focus,#City:focus,#State:focus{
+    box-shadow:0 1px 3px  #0077FF;
+    
+}
+.field-validation-error{
+    color:red;
+}
+.validation-summary-errors{
+    color:red;
+}
+#dropdown a{
+	text-decoration: none;
+	color:#0077FF;
+}
+.footer{
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+.footer li{
+	list-style-type: none;
+}
+.footer {
+	background-color: #313131;
+}
+.footer a{
+	text-decoration: none;
+	color:#0077ff;
+}
+.footer a:hover{
+	text-decoration: none;
+	color:lightgrey;
+}
+#footer1 a{
+	color: lightgrey;
+
+}
+#footer1 a:hover{
+	background-color: transparent; 
+	color:#0088ff;
+}
+#footer1{
+	list-style-type: none;
+	background-color: #313131;
+	margin-bottom: 0px;
+}
+#foot-h{
+	color: lightgrey;
+    margin-left:25px;
+}
+#facebook{
+	width: 30px;
+	margin-right: 10px;
+}
+#google{
+	width:30px;
+	margin-right: 10px;
+}
+#twitter{
+	width:29px;
+	margin-right: 10px;
+}
+#insta{
+	width:30px;
+}
+.follow{
+	margin-top: 8px;
+    padding-bottom:10px;
+}
+#copyright{
+	color: #0077ff;
+	padding: 5px;
+}
+#follow{
+	color: #0077ff;
+	padding: 5px;
+
+	margin-left: 90px;
+}
+
+
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    padding-top: 3px;
+}
+.main-login{
+ 	background-color: rgba(255,255,255,0.7);
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 400px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-large {
+  position: static !important;
+}
+.dropdown-menu-large {
+  width: 100%;
+}
+.dropdown-menu-large > li > ul {
+  padding: 0;
+  margin-top:-20px;
+  border-right: 1px solid #f2f2f2;
+  margin-bottom:10px;
+}
+.dropdown-menu-large > li > ul > li {
+  list-style: none;
+}
+
+.dropdown-menu-large > li > ul > li > a {
+  display: block;
+  padding: 8px;
+  clear: both;
+  font-weight: normal;
+  margin-left:12px;
+  color: #0077FF;
+}
+
+.dropdown-menu-large > li ul > li > a:hover,
+.dropdown-menu-large > li ul > li > a:focus {
+  text-decoration: none;
+  color: white;
+  background-color: #0077FF;
+}
+
+
+.dropdown-menu-large .dropdown-header {
+  color: #777788;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .dropdown-menu-large {
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  #nav{
+  	background-color: white;
+  }
+  .dropdown-menu-large > li {
+    margin-bottom: 30px;
+    background-color: white;
+  }
+  .dropdown-menu-large > li:last-child {
+    margin-bottom: 0;
+  }
+  .dropdown-menu-large .dropdown-header {
+    padding: 3px 10px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prop-img{
+    width:400px;
+    height:400px;
+}
+.detail{
+    width:400px;
+    height:400px;
+    background-color:red;
+    margin-left:400px;
+}
+
